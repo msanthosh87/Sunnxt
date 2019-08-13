@@ -1,0 +1,5 @@
+core\pages\HomePage.class
+core\pages\LoginPage.class
+core\tests\Scenarios.class
+core\tests\SupportTest.class
+core\pages\FullPage.class

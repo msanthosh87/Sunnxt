@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-08-13T09:24:05Z" name="Surefire suite" finished-at="2019-08-13T09:43:33Z" duration-ms="1167356">
+    <groups>
+    </groups>
+    <test started-at="2019-08-13T09:24:05Z" name="Surefire test" finished-at="2019-08-13T09:43:33Z" duration-ms="1167356">
+      <class name="core.tests.Scenarios">
+        <test-method is-config="true" signature="runOncePerSuite()[pri:0, instance:core.tests.Scenarios@3c419631]" started-at="2019-08-13T14:54:05Z" name="runOncePerSuite" finished-at="2019-08-13T14:54:05Z" duration-ms="386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runOncePerSuite -->
+        <test-method is-config="true" signature="runOncePerContext(org.testng.ITestContext)[pri:0, instance:core.tests.Scenarios@3c419631]" started-at="2019-08-13T14:54:05Z" name="runOncePerContext" finished-at="2019-08-13T14:54:05Z" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@320e400]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runOncePerContext -->
+        <test-method is-config="true" signature="runOncePerClass(org.testng.ITestContext)[pri:0, instance:core.tests.Scenarios@3c419631]" started-at="2019-08-13T14:54:05Z" name="runOncePerClass" finished-at="2019-08-13T14:54:05Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@320e400]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runOncePerClass -->
+        <test-method is-config="true" signature="runOncePerMethod(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:core.tests.Scenarios@3c419631]" started-at="2019-08-13T14:54:05Z" name="runOncePerMethod" finished-at="2019-08-13T14:54:56Z" duration-ms="50395" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@320e400]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void core.tests.Scenarios.TC01_verifySwitchingToQA() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runOncePerMethod -->
+        <test-method signature="TC01_verifySwitchingToQA()[pri:1, instance:core.tests.Scenarios@3c419631]" started-at="2019-08-13T14:54:56Z" name="TC01_verifySwitchingToQA" finished-at="2019-08-13T14:55:26Z" duration-ms="30551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_verifySwitchingToQA -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:core.tests.Scenarios@3c419631]" started-at="2019-08-13T14:55:26Z" name="tearDown" finished-at="2019-08-13T14:55:28Z" duration-ms="2021" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC01_verifySwitchingToQA status=SUCCESS method=Scenarios.TC01_verifySwitchingToQA()[pri:1, instance:core.tests.Scenarios@3c419631] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="runOncePerMethod(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:core.tests.Scenarios@3c419631]" started-at="2019-08-13T14:55:28Z" name="runOncePerMethod" finished-at="2019-08-13T14:56:15Z" duration-ms="46743" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@320e400]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void core.tests.Scenarios.TC02_verifyLoginError() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runOncePerMethod -->
+        <test-method signature="TC02_verifyLoginError()[pri:2, instance:core.tests.Scenarios@3c419631]" started-at="2019-08-13T14:56:15Z" name="TC02_verifyLoginError" finished-at="2019-08-13T14:57:01Z" duration-ms="45549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_verifyLoginError -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:core.tests.Scenarios@3c419631]" started-at="2019-08-13T14:57:01Z" name="tearDown" finished-at="2019-08-13T14:57:03Z" duration-ms="1957" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC02_verifyLoginError status=SUCCESS method=Scenarios.TC02_verifyLoginError()[pri:2, instance:core.tests.Scenarios@3c419631] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="runOncePerMethod(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:core.tests.Scenarios@3c419631]" started-at="2019-08-13T14:57:03Z" name="runOncePerMethod" finished-at="2019-08-13T14:57:52Z" duration-ms="49704" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@320e400]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void core.tests.Scenarios.TC03_verifyingSuccessfulLogin() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runOncePerMethod -->
+        <test-method signature="TC03_verifyingSuccessfulLogin()[pri:3, instance:core.tests.Scenarios@3c419631]" started-at="2019-08-13T14:57:52Z" name="TC03_verifyingSuccessfulLogin" finished-at="2019-08-13T14:58:56Z" duration-ms="63139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_verifyingSuccessfulLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:core.tests.Scenarios@3c419631]" started-at="2019-08-13T14:58:56Z" name="tearDown" finished-at="2019-08-13T14:58:58Z" duration-ms="2016" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC03_verifyingSuccessfulLogin status=SUCCESS method=Scenarios.TC03_verifyingSuccessfulLogin()[pri:3, instance:core.tests.Scenarios@3c419631] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="runOncePerMethod(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:core.tests.Scenarios@3c419631]" started-at="2019-08-13T14:58:58Z" name="runOncePerMethod" finished-at="2019-08-13T14:59:45Z" duration-ms="47192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@320e400]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void core.tests.Scenarios.TC04_verifyStatusScreenContents() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runOncePerMethod -->
+        <test-method signature="TC04_verifyStatusScreenContents()[pri:4, instance:core.tests.Scenarios@3c419631]" started-at="2019-08-13T14:59:45Z" name="TC04_verifyStatusScreenContents" finished-at="2019-08-13T15:00:44Z" duration-ms="59420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_verifyStatusScreenContents -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:core.tests.Scenarios@3c419631]" started-at="2019-08-13T15:00:44Z" name="tearDown" finished-at="2019-08-13T15:00:46Z" duration-ms="1709" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC04_verifyStatusScreenContents status=SUCCESS method=Scenarios.TC04_verifyStatusScreenContents()[pri:4, instance:core.tests.Scenarios@3c419631] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="runOncePerMethod(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:core.tests.Scenarios@3c419631]" started-at="2019-08-13T15:00:46Z" name="runOncePerMethod" finished-at="2019-08-13T15:01:34Z" duration-ms="48108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@320e400]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void core.tests.Scenarios.TC05_verifyingGraphInteractionInEnergy() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runOncePerMethod -->
+        <test-method signature="TC05_verifyingGraphInteractionInEnergy()[pri:5, instance:core.tests.Scenarios@3c419631]" started-at="2019-08-13T15:01:34Z" name="TC05_verifyingGraphInteractionInEnergy" finished-at="2019-08-13T15:03:10Z" duration-ms="96288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC05_verifyingGraphInteractionInEnergy -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:core.tests.Scenarios@3c419631]" started-at="2019-08-13T15:03:10Z" name="tearDown" finished-at="2019-08-13T15:03:12Z" duration-ms="1778" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC05_verifyingGraphInteractionInEnergy status=SUCCESS method=Scenarios.TC05_verifyingGraphInteractionInEnergy()[pri:5, instance:core.tests.Scenarios@3c419631] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="runOncePerMethod(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:core.tests.Scenarios@3c419631]" started-at="2019-08-13T15:03:12Z" name="runOncePerMethod" finished-at="2019-08-13T15:04:00Z" duration-ms="47807" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@320e400]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void core.tests.Scenarios.TC06_verifyingDifferntTimeFiltersInEnergyScreen() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runOncePerMethod -->
+        <test-method signature="TC06_verifyingDifferntTimeFiltersInEnergyScreen()[pri:6, instance:core.tests.Scenarios@3c419631]" started-at="2019-08-13T15:04:00Z" name="TC06_verifyingDifferntTimeFiltersInEnergyScreen" finished-at="2019-08-13T15:05:22Z" duration-ms="81895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC06_verifyingDifferntTimeFiltersInEnergyScreen -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:core.tests.Scenarios@3c419631]" started-at="2019-08-13T15:05:22Z" name="tearDown" finished-at="2019-08-13T15:05:24Z" duration-ms="1823" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC06_verifyingDifferntTimeFiltersInEnergyScreen status=SUCCESS method=Scenarios.TC06_verifyingDifferntTimeFiltersInEnergyScreen()[pri:6, instance:core.tests.Scenarios@3c419631] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="runOncePerMethod(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:core.tests.Scenarios@3c419631]" started-at="2019-08-13T15:05:24Z" name="runOncePerMethod" finished-at="2019-08-13T15:06:12Z" duration-ms="47981" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@320e400]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void core.tests.Scenarios.TC07_verifyingSolarEnergyProducedUI() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runOncePerMethod -->
+        <test-method signature="TC07_verifyingSolarEnergyProducedUI()[pri:7, instance:core.tests.Scenarios@3c419631]" started-at="2019-08-13T15:06:12Z" name="TC07_verifyingSolarEnergyProducedUI" finished-at="2019-08-13T15:07:21Z" duration-ms="69047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC07_verifyingSolarEnergyProducedUI -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:core.tests.Scenarios@3c419631]" started-at="2019-08-13T15:07:21Z" name="tearDown" finished-at="2019-08-13T15:07:22Z" duration-ms="1798" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC07_verifyingSolarEnergyProducedUI status=SUCCESS method=Scenarios.TC07_verifyingSolarEnergyProducedUI()[pri:7, instance:core.tests.Scenarios@3c419631] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="runOncePerMethod(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:core.tests.Scenarios@3c419631]" started-at="2019-08-13T15:07:22Z" name="runOncePerMethod" finished-at="2019-08-13T15:08:10Z" duration-ms="47976" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@320e400]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void core.tests.Scenarios.TC08_verifyingMenuPage() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runOncePerMethod -->
+        <test-method signature="TC08_verifyingMenuPage()[pri:8, instance:core.tests.Scenarios@3c419631]" started-at="2019-08-13T15:08:10Z" name="TC08_verifyingMenuPage" finished-at="2019-08-13T15:09:11Z" duration-ms="60489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC08_verifyingMenuPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:core.tests.Scenarios@3c419631]" started-at="2019-08-13T15:09:11Z" name="tearDown" finished-at="2019-08-13T15:09:13Z" duration-ms="2121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC08_verifyingMenuPage status=SUCCESS method=Scenarios.TC08_verifyingMenuPage()[pri:8, instance:core.tests.Scenarios@3c419631] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="runOncePerMethod(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:core.tests.Scenarios@3c419631]" started-at="2019-08-13T15:09:13Z" name="runOncePerMethod" finished-at="2019-08-13T15:10:02Z" duration-ms="48636" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@320e400]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void core.tests.Scenarios.TC09_verifySiteDetailsSection() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runOncePerMethod -->
+        <test-method signature="TC09_verifySiteDetailsSection()[pri:9, instance:core.tests.Scenarios@3c419631]" started-at="2019-08-13T15:10:02Z" name="TC09_verifySiteDetailsSection" finished-at="2019-08-13T15:11:28Z" duration-ms="86446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC09_verifySiteDetailsSection -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:core.tests.Scenarios@3c419631]" started-at="2019-08-13T15:11:28Z" name="tearDown" finished-at="2019-08-13T15:11:30Z" duration-ms="1746" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC09_verifySiteDetailsSection status=SUCCESS method=Scenarios.TC09_verifySiteDetailsSection()[pri:9, instance:core.tests.Scenarios@3c419631] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="runOncePerMethod(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:core.tests.Scenarios@3c419631]" started-at="2019-08-13T15:11:30Z" name="runOncePerMethod" finished-at="2019-08-13T15:12:18Z" duration-ms="48205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@320e400]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void core.tests.Scenarios.TC10_verifyingReportSending() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runOncePerMethod -->
+        <test-method signature="TC10_verifyingReportSending()[pri:10, instance:core.tests.Scenarios@3c419631]" started-at="2019-08-13T15:12:18Z" name="TC10_verifyingReportSending" finished-at="2019-08-13T15:13:31Z" duration-ms="72778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC10_verifyingReportSending -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:core.tests.Scenarios@3c419631]" started-at="2019-08-13T15:13:31Z" name="tearDown" finished-at="2019-08-13T15:13:33Z" duration-ms="1985" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC10_verifyingReportSending status=SUCCESS method=Scenarios.TC10_verifyingReportSending()[pri:10, instance:core.tests.Scenarios@3c419631] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- core.tests.Scenarios -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

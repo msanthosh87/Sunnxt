@@ -1,0 +1,77 @@
+{
+	"title": {
+		"DESKTOP_WEB": "xpath=//h2[@title='Sandeen copy']"
+	},
+	"report": {
+		"DESKTOP_WEB": "xpath=//span[contains(text(),'Reports')]"
+	},
+	"overview": {
+		"DESKTOP_WEB": "xpath=//span[text()='Overview']"
+	},
+	"qaConsumerOwnerDropDwn": {
+		"DESKTOP_WEB": "xpath=//a[@id='topnav-menu' or contains(text(),'QA Consumer Owner')]"
+	},
+	"overview-menu": {
+		"DESKTOP_WEB": "xpath=//a[@class='overview-menu']"
+	},
+	"production-menu": {
+		"DESKTOP_WEB": "xpath=//a[@class='production-menu']"
+	},
+	"reports-menu": {
+		"DESKTOP_WEB": "xpath=//a[@class='reports-menu']"
+	},
+	"signOut": {
+		"DESKTOP_WEB": "xpath=//a[contains(text(), 'Sign Out')]"
+	},
+	"dailyPrdoductinSelectDrpDwn": {
+		"DESKTOP_WEB": "xpath=(//*[@title='Reports'])[2]/following::select"
+	},
+	"runReportButton": {
+		"DESKTOP_WEB": "xpath=//span[contains(text(),'Run Report')]"
+	},
+	"emailButton": {
+		"DESKTOP_WEB": "xpath=//img[@id='email_button']"
+	},
+	"emailFormSubmit": {
+		"DESKTOP_WEB": "xpath=//*[@id='email_form_submit']"
+	},
+	"reportMsg": {
+		"DESKTOP_WEB": "xpath=//*[contains(text(),'Report will be sent shortly to qaowner.enphase+consumer@gmail.com.')]"
+	},
+	"production": {
+		"DESKTOP_WEB": "xpath=//span[contains(text(),'Production')]"
+	},
+	"gridGraph": {
+		"DESKTOP_WEB": "xpath=//*[@class='container']//table"
+	},
+	"barTable": {
+		"DESKTOP_WEB": "xpath=((//*[text()='Energy']/following::ul[2])//a)[2]"
+	},
+	"barGraph": {
+		"DESKTOP_WEB": "xpath=//*[@class='module days graph production']//table"
+	},
+	"array": {
+		"DESKTOP_WEB": "xpath=//div[@class='span8 array-container']"
+	},
+	"navBar": {
+		"DESKTOP_WEB": "css=a#topnav-menu"
+	},
+	"overViweLink": {
+		"DESKTOP_WEB": "xpath=//a[@href='/pv/systems/4889/overview']"
+	},
+	"beatPlan": {
+		"ANDROID": "xpath=//*[@text='Beat Plan']"
+	},
+	"sandeenCopy": {
+		"DESKTOP_WEB": "xpath=//h2[contains(text(),'Sandeen copy')]"
+	},
+	"refreshButton": {
+		"DESKTOP_WEB": "xpath=//a[@title='Update Data']"
+	},
+	"loadingPageTitle": {
+		"DESKTOP_WEB": "xpath=//*[contains(text(),'Loading')]"
+	},
+	"images": {
+		"DESKTOP_WEB": "xpath=//a"
+	}
+}

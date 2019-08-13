@@ -1,0 +1,23 @@
+{
+	"emailTxtBox": {
+		"DESKTOP_WEB": "xpath=//input[@id='user_email']"
+	},
+	"passwordTxtBox": {
+		"DESKTOP_WEB": "xpath=//input[@id='user_password']"
+	},
+	"submit": {
+		"DESKTOP_WEB": "xpath=//input[@id='submit']"
+	},
+	"ErrorMessage": {
+		"DESKTOP_WEB": "xpath=//*[@text='The email and password you entered does not match our records. Please try again.']"
+	},
+	"HomePageVeri": {
+		"DESKTOP_WEB": "xpath=//*[contains(@text,'Status')] "
+	},
+	"overview": {
+		"DESKTOP_WEB": "xpath=//span[text()='Overview']"
+	},
+	"pageHeading": {
+		"DESKTOP_WEB": "xpath=//span[@class='logo brand']"
+	}
+}

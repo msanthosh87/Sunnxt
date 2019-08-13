@@ -1,0 +1,110 @@
+{
+	"energyBtnOnHomePage": {
+		"ANDROID": "xpath=//*[@text='Energy']",
+		"IOS": "xpath=//XCUIElementTypeButton[@text='Energy']"
+	},
+	"graphTime": {
+		"ANDROID": "xpath=//*[@text='12 pm']",
+		"IOS": "id=12 pm"
+	},
+	"startTimeCapture": {
+		"ANDROID": "xpath=(//*[@class='android.view.View' and ./*[@text='Energy' and @class='android.view.View']]//following-sibling::android.view.View)[2]",
+		"IOS": "xpath=(//XCUIElementTypeStaticText[@id='Energy']/following-sibling::XCUIElementTypeStaticText)[2]"
+	},
+	"endTimeCapture": {
+		"ANDROID": "xpath=(//*[@class='android.view.View' and ./*[@text='Energy' and @class='android.view.View']]//following-sibling::android.view.View)[4]",
+		"IOS": "xpath=(//XCUIElementTypeStaticText[@id='Energy']/following-sibling::XCUIElementTypeStaticText)[4]"
+	},
+	"energyProd": {
+		"ANDROID": "xpath=(//android.view.View[contains(@text,'Wh')])[1]",
+		"IOS": "xpath=(//XCUIElementTypeStaticText[@id='Wh']/preceding-sibling::XCUIElementTypeStaticText)[1]"
+	},
+	"energyConsump": {
+		"ANDROID": "xpath=(//android.view.View[contains(@text,'Wh')])[2]",
+		"IOS": "xpath=(//XCUIElementTypeStaticText[@id='Wh']/preceding-sibling::XCUIElementTypeStaticText)[2]"
+	},
+	"toolTip": {
+		"ANDROID": "xpath=//android.view.View[@text='POWER']",
+		"IOS": "id=POWER"
+	},
+	"weekTab": {
+		"ANDROID": "xpath=//android.view.View[@text='WEEK']",
+		"IOS": "id=WEEK"
+	},
+	"monthTab": {
+		"ANDROID": "xpath=//android.view.View[@text='MONTH']",
+		"IOS": "id=MONTH"
+	},
+	"yearTab": {
+		"ANDROID": "xpath=//android.view.View[@text='YEAR']",
+		"IOS": "id=YEAR"
+	},
+	"lifetimeTab": {
+		"ANDROID": "xpath=//android.view.View[@text='LIFETIME']",
+		"IOS": "id=LIFETIME"
+	},
+	"menuBtnOnHomePage": {
+		"ANDROID": "xpath=//*[@text='Menu']",
+		"IOS": "id=MENU"
+	},
+	"reportBtnMenuPage": {
+		"ANDROID": "xpath=//*[@text='Reports']",
+		"IOS": "id=Reports"
+	},
+	"emailReportBtn": {
+		"ANDROID": "xpath=//*[@text='Email Report']",
+		"IOS": "id=Email Report"
+	},
+	"reportSentMsg": {
+		"ANDROID": "xpath=//android.view.View[contains(@text,'Report will')]",
+		"IOS": "xpath=//XCUIElementTypeStaticText[contains(@text,'Report will be sent shortly')]"
+	},
+	"statusScreenCont": {
+		"ANDROID": "xpath=//*[contains(@text,'weather ')]",
+		"IOS": "xpath=//*[contains(@text,'Produced')]"
+	},
+	"blueArrayIcon": {
+		"ANDROID": "xpath=(//android.widget.Image[@text='weather']/following::android.widget.Image)[1]",
+		"IOS": "xpath=//*[contains(@text,'Produced')]"
+	},
+	"greyArrayIcon": {
+		"ANDROID": "xpath=(//android.widget.Image[@text='weather']/following::android.widget.Image)[2]",
+		"IOS": "xpath=//*[contains(@text,'Produced')]"
+	},
+	"siteDetailsBtnMenuPage": {
+		"ANDROID": "xpath=//android.widget.Button[@text='Site Details']",
+		"IOS": "xpath=//*[contains(@text,'Produced')]"
+	},
+	"devicesBtnMenuPage": {
+		"ANDROID": "xpath=//android.widget.Button[@text='Devices']",
+		"IOS": "xpath=//*[contains(@text,'Produced')]"
+	},
+	"supportsBtnMenuPage": {
+		"ANDROID": "xpath=//android.widget.Button[@text='Support']",
+		"IOS": "xpath=//*[contains(@text,'Produced')]"
+	},
+	"settingsBtnMenuPage": {
+		"ANDROID": "xpath=//android.widget.Button[@text='Settings']",
+		"IOS": "xpath=//*[contains(@text,'Produced')]"
+	},
+	"logoutBtnMenuPage": {
+		"ANDROID": "xpath=//android.widget.Button[@text='Logout']",
+		"IOS": "xpath=//*[contains(@text,'Produced')]"
+	},
+	"enphaseLogoMenuPage": {
+		"ANDROID": "xpath=//android.widget.Button[@text='Logout']/following::android.widget.Image",
+		"IOS": "xpath=//*[contains(@text,'Produced')]"
+	},
+	"siteDetailsTitle": {
+		"ANDROID": "xpath=//*[@text='SITE DETAILS']",
+		"IOS": "xpath=//*[contains(@text,'Produced')]"
+	},
+	"siteIDInSiteDetails": {
+		"ANDROID": "xpath=//*[@text='SITE DETAILS']/following::*[contains(@text,'Site ID')]",
+		"IOS": "xpath=//*[contains(@text,'Produced')]"
+	},
+	"emailIDInSiteDetails": {
+		"ANDROID": "xpath=//*[contains(@text,'enphaseenergy.com')]",
+		"IOS": "xpath=//*[contains(@text,'Produced')]"
+	}
+}

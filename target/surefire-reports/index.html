@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-passed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="core.tests.Scenarios" class="method navigator-link" hash-for-method="TC01_verifySwitchingToQA">TC01_verifySwitchingToQA</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="core.tests.Scenarios" class="method navigator-link" hash-for-method="TC02_verifyLoginError">TC02_verifyLoginError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="core.tests.Scenarios" class="method navigator-link" hash-for-method="TC03_verifyingSuccessfulLogin">TC03_verifyingSuccessfulLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="core.tests.Scenarios" class="method navigator-link" hash-for-method="TC04_verifyStatusScreenContents">TC04_verifyStatusScreenContents</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="core.tests.Scenarios" class="method navigator-link" hash-for-method="TC05_verifyingGraphInteractionInEnergy">TC05_verifyingGraphInteractionInEnergy</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="core.tests.Scenarios" class="method navigator-link" hash-for-method="TC06_verifyingDifferntTimeFiltersInEnergyScreen">TC06_verifyingDifferntTimeFiltersInEnergyScreen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="core.tests.Scenarios" class="method navigator-link" hash-for-method="TC07_verifyingSolarEnergyProducedUI">TC07_verifyingSolarEnergyProducedUI</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="core.tests.Scenarios" class="method navigator-link" hash-for-method="TC08_verifyingMenuPage">TC08_verifyingMenuPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="core.tests.Scenarios" class="method navigator-link" hash-for-method="TC09_verifySiteDetailsSection">TC09_verifySiteDetailsSection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="core.tests.Scenarios" class="method navigator-link" hash-for-method="TC10_verifyingReportSending">TC10_verifyingReportSending</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">core.tests.Scenarios</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC01_verifySwitchingToQA">
+                  </a> <!-- TC01_verifySwitchingToQA -->
+                  <span class="method-name">TC01_verifySwitchingToQA</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC02_verifyLoginError">
+                  </a> <!-- TC02_verifyLoginError -->
+                  <span class="method-name">TC02_verifyLoginError</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC03_verifyingSuccessfulLogin">
+                  </a> <!-- TC03_verifyingSuccessfulLogin -->
+                  <span class="method-name">TC03_verifyingSuccessfulLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC04_verifyStatusScreenContents">
+                  </a> <!-- TC04_verifyStatusScreenContents -->
+                  <span class="method-name">TC04_verifyStatusScreenContents</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC05_verifyingGraphInteractionInEnergy">
+                  </a> <!-- TC05_verifyingGraphInteractionInEnergy -->
+                  <span class="method-name">TC05_verifyingGraphInteractionInEnergy</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC06_verifyingDifferntTimeFiltersInEnergyScreen">
+                  </a> <!-- TC06_verifyingDifferntTimeFiltersInEnergyScreen -->
+                  <span class="method-name">TC06_verifyingDifferntTimeFiltersInEnergyScreen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC07_verifyingSolarEnergyProducedUI">
+                  </a> <!-- TC07_verifyingSolarEnergyProducedUI -->
+                  <span class="method-name">TC07_verifyingSolarEnergyProducedUI</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC08_verifyingMenuPage">
+                  </a> <!-- TC08_verifyingMenuPage -->
+                  <span class="method-name">TC08_verifyingMenuPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC09_verifySiteDetailsSection">
+                  </a> <!-- TC09_verifySiteDetailsSection -->
+                  <span class="method-name">TC09_verifySiteDetailsSection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC10_verifyingReportSending">
+                  </a> <!-- TC10_verifyingReportSending -->
+                  <span class="method-name">TC10_verifyingReportSending</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;core.tests.Scenarios&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC05_verifyingGraphInteractionInEnergy')
+data.setCell(0, 2, 'core.tests.Scenarios')
+data.setCell(0, 3, 96288);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC09_verifySiteDetailsSection')
+data.setCell(1, 2, 'core.tests.Scenarios')
+data.setCell(1, 3, 86446);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC06_verifyingDifferntTimeFiltersInEnergyScreen')
+data.setCell(2, 2, 'core.tests.Scenarios')
+data.setCell(2, 3, 81895);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC10_verifyingReportSending')
+data.setCell(3, 2, 'core.tests.Scenarios')
+data.setCell(3, 3, 72778);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TC07_verifyingSolarEnergyProducedUI')
+data.setCell(4, 2, 'core.tests.Scenarios')
+data.setCell(4, 3, 69047);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TC03_verifyingSuccessfulLogin')
+data.setCell(5, 2, 'core.tests.Scenarios')
+data.setCell(5, 3, 63139);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TC08_verifyingMenuPage')
+data.setCell(6, 2, 'core.tests.Scenarios')
+data.setCell(6, 3, 60489);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TC04_verifyStatusScreenContents')
+data.setCell(7, 2, 'core.tests.Scenarios')
+data.setCell(7, 3, 59420);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TC02_verifyLoginError')
+data.setCell(8, 2, 'core.tests.Scenarios')
+data.setCell(8, 3, 45549);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TC01_verifySwitchingToQA')
+data.setCell(9, 2, 'core.tests.Scenarios')
+data.setCell(9, 3, 30551);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 11 minutes</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">core.tests.Scenarios</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">runOncePerSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">runOncePerContext(org.testng.TestRunner@320e400)</span>
+                <span class="method-start">386 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">runOncePerClass(org.testng.TestRunner@320e400)</span>
+                <span class="method-start">411 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">runOncePerMethod(org.testng.TestRunner@320e400, public void core.tests.Scenarios.TC01_verifySwitchingToQA() throws ja...)</span>
+                <span class="method-start">419 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC01_verifySwitchingToQA</span>
+                <span class="method-start">50814 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC01_verifySwitchingToQA status=SUCCESS method=Scenarios.TC01_verifySwitchingToQA()...)</span>
+                <span class="method-start">81367 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">runOncePerMethod(org.testng.TestRunner@320e400, public void core.tests.Scenarios.TC02_verifyLoginError() throws java....)</span>
+                <span class="method-start">83391 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC02_verifyLoginError</span>
+                <span class="method-start">130134 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC02_verifyLoginError status=SUCCESS method=Scenarios.TC02_verifyLoginError()[pri:2...)</span>
+                <span class="method-start">175683 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">runOncePerMethod(org.testng.TestRunner@320e400, public void core.tests.Scenarios.TC03_verifyingSuccessfulLogin() thro...)</span>
+                <span class="method-start">177641 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC03_verifyingSuccessfulLogin</span>
+                <span class="method-start">227345 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC03_verifyingSuccessfulLogin status=SUCCESS method=Scenarios.TC03_verifyingSuccess...)</span>
+                <span class="method-start">290484 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">runOncePerMethod(org.testng.TestRunner@320e400, public void core.tests.Scenarios.TC04_verifyStatusScreenContents() th...)</span>
+                <span class="method-start">292501 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC04_verifyStatusScreenContents</span>
+                <span class="method-start">339693 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC04_verifyStatusScreenContents status=SUCCESS method=Scenarios.TC04_verifyStatusSc...)</span>
+                <span class="method-start">399114 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">runOncePerMethod(org.testng.TestRunner@320e400, public void core.tests.Scenarios.TC05_verifyingGraphInteractionInEner...)</span>
+                <span class="method-start">400824 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC05_verifyingGraphInteractionInEnergy</span>
+                <span class="method-start">448932 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC05_verifyingGraphInteractionInEnergy status=SUCCESS method=Scenarios.TC05_verifyi...)</span>
+                <span class="method-start">545222 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">runOncePerMethod(org.testng.TestRunner@320e400, public void core.tests.Scenarios.TC06_verifyingDifferntTimeFiltersInE...)</span>
+                <span class="method-start">547001 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC06_verifyingDifferntTimeFiltersInEnergyScreen</span>
+                <span class="method-start">594808 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC06_verifyingDifferntTimeFiltersInEnergyScreen status=SUCCESS method=Scenarios.TC0...)</span>
+                <span class="method-start">676703 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">runOncePerMethod(org.testng.TestRunner@320e400, public void core.tests.Scenarios.TC07_verifyingSolarEnergyProducedUI(...)</span>
+                <span class="method-start">678527 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC07_verifyingSolarEnergyProducedUI</span>
+                <span class="method-start">726508 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC07_verifyingSolarEnergyProducedUI status=SUCCESS method=Scenarios.TC07_verifyingS...)</span>
+                <span class="method-start">795556 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">runOncePerMethod(org.testng.TestRunner@320e400, public void core.tests.Scenarios.TC08_verifyingMenuPage() throws java...)</span>
+                <span class="method-start">797355 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC08_verifyingMenuPage</span>
+                <span class="method-start">845331 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC08_verifyingMenuPage status=SUCCESS method=Scenarios.TC08_verifyingMenuPage()[pri...)</span>
+                <span class="method-start">905821 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">runOncePerMethod(org.testng.TestRunner@320e400, public void core.tests.Scenarios.TC09_verifySiteDetailsSection() thro...)</span>
+                <span class="method-start">907943 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC09_verifySiteDetailsSection</span>
+                <span class="method-start">956579 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC09_verifySiteDetailsSection status=SUCCESS method=Scenarios.TC09_verifySiteDetail...)</span>
+                <span class="method-start">1043026 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">runOncePerMethod(org.testng.TestRunner@320e400, public void core.tests.Scenarios.TC10_verifyingReportSending() throws...)</span>
+                <span class="method-start">1044773 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC10_verifyingReportSending</span>
+                <span class="method-start">1092978 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC10_verifyingReportSending status=SUCCESS method=Scenarios.TC10_verifyingReportSen...)</span>
+                <span class="method-start">1165757 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

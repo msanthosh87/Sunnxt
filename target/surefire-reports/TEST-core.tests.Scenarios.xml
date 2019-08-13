@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="core.tests.Scenarios" time="1,168.892" tests="10" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="platform" value="ANDROID"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.4+11-LTS"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.4_10\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Kshitiz\eclipse-workspace\ArteriaProjectMobile"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="mobile_udid" value="33000b2469af94f5"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="test" value="tests.Scenarios"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Kshitiz\eclipse-workspace\ArteriaProjectMobile"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="11.0.4+11-LTS"/>
+    <property name="screenshot_paths" value="screenshots\"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Kshitiz\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.6.0\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.4_10\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Amazon Corretto\jdk11.0.4_10\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Amazon Corretto\jdk11.0.4_10\bin;C:\Program Files\Java\jdk1.8.0_191\jre;C:\Program Files\apache-maven-3.6.0\bin;C:\Users\Kshitiz\AppData\Local\Android\Sdk_old\tools\bin;C:\Users\Kshitiz\AppData\Local\Sdk_old\tools;C:\Users\Kshitiz\AppData\Local\Android\Sdk_old\platform-tools;C:\Program Files\gradle-4.10.2\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Users\Kshitiz\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Users\Kshitiz\Downloads\gradle-4.10.3-bin\gradle-4.10.3\bin;C:\Users\Kshitiz\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.6.0\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="appium_url" value="http://127.0.0.1:4723/wd/hub"/>
+    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.6.0\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Kshitiz"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="platform_version" value="8.1.0"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="Kshitiz"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.6.0\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Ddevice_name=Android -Dplatform_version=8.1.0 -Dmobile_udid=33000b2469af94f5 -Dapp_file_path=D:\POC\Enlighten\Enlighten\Android\app-release.apk -Dappium_url=http://127.0.0.1:4723/wd/hub -Dscreenshot_paths=screenshots\ -Dplatform=ANDROID -Dtest=tests.Scenarios clean test"/>
+    <property name="java.home" value="C:\Program Files\Amazon Corretto\jdk11.0.4_10"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.4"/>
+    <property name="device_name" value="Android"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="app_file_path" value="D:\POC\Enlighten\Enlighten\Android\app-release.apk"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.6.0\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2019-07-16"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Corretto-11.0.4.11.1"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="TC01_verifySwitchingToQA" classname="core.tests.Scenarios" time="30.544"/>
+  <testcase name="TC02_verifyLoginError" classname="core.tests.Scenarios" time="41.975"/>
+  <testcase name="TC03_verifyingSuccessfulLogin" classname="core.tests.Scenarios" time="63.102"/>
+  <testcase name="TC04_verifyStatusScreenContents" classname="core.tests.Scenarios" time="59.398"/>
+  <testcase name="TC05_verifyingGraphInteractionInEnergy" classname="core.tests.Scenarios" time="96.285"/>
+  <testcase name="TC06_verifyingDifferntTimeFiltersInEnergyScreen" classname="core.tests.Scenarios" time="81.88"/>
+  <testcase name="TC07_verifyingSolarEnergyProducedUI" classname="core.tests.Scenarios" time="69.013"/>
+  <testcase name="TC08_verifyingMenuPage" classname="core.tests.Scenarios" time="60.462"/>
+  <testcase name="TC09_verifySiteDetailsSection" classname="core.tests.Scenarios" time="86.424"/>
+  <testcase name="TC10_verifyingReportSending" classname="core.tests.Scenarios" time="72.737"/>
+</testsuite>

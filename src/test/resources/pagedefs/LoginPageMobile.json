@@ -1,0 +1,45 @@
+{
+	"passwordTxtBox": {
+		"ANDROID": "xpath=//*[@id='password' or @resource-id='password']",
+		"IOS": "xpath=XCUIElementTypeSecureTextField"
+	},
+	"loginBtn": {
+		"ANDROID": "xpath=//*[@text='Sign in' or @resource-id='loginButton' or @id='loginButton']",
+		"IOS": "xpath=//XCUIElementTypeButton[@text='Sign in']"
+	},
+	"emailTxtBox": {
+		"ANDROID": "xpath=//*[@id='email' or @resource-id='email']",
+		"IOS": "xpath=//XCUIElementTypeTextField"
+	},
+	"errorMessage": {
+		"ANDROID": "xpath=//*[@text='The email and password you entered does not match our records. Please try again.']",
+		"IOS": "xpath=//*[@text='The email and password you entered does not match our records. Please try again.']"
+	},
+	"statusTxt": {
+		"ANDROID": "xpath=//*[contains(@text,'Status')]",
+		"IOS": "xpath=//XCUIElementTypeButton[@text='Status']"
+	},
+	"monitorTxt": {
+		"ANDROID": "xpath=//*[@text='MONITOR']",
+		"IOS": "xpath=//*[@text='MONITOR']"
+	},
+	"firstNextBtnTutoPage": {
+		"ANDROID": "xpath=//*[@text='MONITOR']/following::android.widget.Button",
+		"IOS": "xpath=(//XCUIElementTypeButton)[1]"
+	},
+	"trackTxt": {
+		"ANDROID": "xpath=//*[@text='TRACK']",
+		"IOS": "xpath=//*[@text='TRACK']"
+	},
+	"nextBtnTutoPage": {
+		"ANDROID": "xpath=(//*[@class='android.view.View' and ./*[@class='android.widget.Button']]/android.widget.Button)[2]",
+		"IOS": "xpath=(//XCUIElementTypeButton)[2]"
+	},
+	"reportTxt": {
+		"ANDROID": "xpath=//*[@text='REPORT']",
+		"IOS": "xpath=//*[@text='REPORT']"
+	},
+	"imagesUI": {
+		"ANDROID": "xpath=//*[@class='android.widget.Image']"
+	}
+}
