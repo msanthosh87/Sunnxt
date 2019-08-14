@@ -24,6 +24,7 @@ public class LoginPageMobile extends FullPage {
 		getControl("passwordTxtBox").enterText(getTestData().get("pass"));
 		getControl("loginBtn").waitUntilClickable();
 		getControl("loginBtn").click();
+		waitForLoginToQAEnvironment();
 	}
 
 	/**
@@ -32,7 +33,6 @@ public class LoginPageMobile extends FullPage {
 	 */
 	public void verifyQAEnvironment() throws Exception {
 		switchingToQAEnvir();
-		waitForElementToBeLoaded(10);
 		getControl("passwordTxtBox").waitUntilClickable();
 		softAssert.assertEquals(getControl("passwordTxtBox").getText().isEmpty(), true,
 				"Not able to switch to QA Environment");
@@ -47,7 +47,6 @@ public class LoginPageMobile extends FullPage {
 
 		String expectedErrorMsg = getTestData().get("errorMsg");
 		switchingToQAEnvir();
-		waitForElementToBeLoaded(10);
 		getControl("emailTxtBox").waitUntilClickable();
 		getControl("emailTxtBox").click();
 		getControl("emailTxtBox").enterText(getTestData().get("username"));
@@ -63,7 +62,6 @@ public class LoginPageMobile extends FullPage {
 	}
 
 	public void validLoginData() throws Exception {
-		waitForElementToBeLoaded(10);
 		getControl("emailTxtBox").waitUntilClickable();
 		getControl("emailTxtBox").enterText(getTestData().get("username"));
 		getControl("passwordTxtBox").waitUntilClickable();

@@ -15,6 +15,7 @@ public abstract class FullPage extends Page {
 
 	WebDriver driver = this.getAgent().getWebDriver();
 	SoftAssert softAssert = new SoftAssert();
+	int waitForElement = 10;
 	
 	protected StringBuffer generateString(int length) {
 		StringBuffer output = new StringBuffer();
@@ -122,7 +123,7 @@ public abstract class FullPage extends Page {
 		return (email);
 	}
 	
-	public void waitForElementToBeLoaded(int waitForElement) throws Exception {
+	public void waitForLoginToQAEnvironment() throws Exception {
 		long miliSeconds = waitForElement * 1000;
 		Thread.sleep(miliSeconds);
 	}
